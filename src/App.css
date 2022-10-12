@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #35383f
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: vh10;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +25,25 @@
   color: white;
 }
 
+.questao1{
+  color: white;
+  background-color: #35383f
+}
+
+.questao2{
+  color: white;
+  background-color: #35383f
+}
+
+.questao3{
+  color: white;
+  background-color: #35383f
+}
+
+.questao4{
+  color: white;
+  background-color: #35383f
+}
 .App-link {
   color: #61dafb;
 }
