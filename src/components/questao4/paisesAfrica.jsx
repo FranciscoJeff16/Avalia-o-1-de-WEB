@@ -30,7 +30,7 @@ const Paises = () => {
     };
 
     const menosPopuloso = () => {
-        let menorPopulacao = paises[0].population;
+        let menorPopulacao = paises[0]?.population;
         let paisMenosPopuloso = "";
         paises.forEach((paises) => {
             if (paises.population < menorPopulacao) {
