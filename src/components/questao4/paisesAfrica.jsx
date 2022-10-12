@@ -56,11 +56,11 @@ const Paises = () => {
             <button class="btn btn-primary" onClick={() => { setContinente("Asia");  alert("O pais menos populoso é:" + " " + menosPopuloso())}}>Asia</button>
             <br></br>
             <br></br>
-            
+
             <ul>
                 <h3> O país mais populoso do continente da {continente} é {maisPopuloso()}</h3>
                 <h3> O país menos populoso do continente da {continente} é {menosPopuloso()}</h3>
-                Lista de países e população do continente {continente}:
+                Lista de países e população do continente {continente}.:
             <br></br>
                     {paises.map((paises) => (
                         <ul key={paises.name}>{paises.name} - {paises.population}</ul>
